@@ -1,15 +1,75 @@
+/* Allgemeine Stile */
 body, html {
-    height: 100%;
-    font-family: "Inconsolata", sans-serif;
-  }
+  font-family: "Inconsolata", sans-serif;
+  height: 100%;
+}
 
-  .bgimg {
-    background-position: center;
-    background-size: cover;
-    background-image: url("https://www.w3schools.com/w3images/coffeehouse.jpg");
-    min-height: 75%;    
-  }
+/* Hintergrundbild */
+.bgimg {
+  background-image: url("https://www.w3schools.com/w3images/coffeehouse.jpg");
+  background-position: center;
+  background-size: cover;
+  min-height: 75%;    
+}
 
-  .menu {
-    display: none;
-  }
+/* Menü */
+.menu {
+  display: none;
+}
+
+/* Social-Media-Links */
+.social-media-links {
+  display: flex;
+  justify-content: center;
+}
+
+.social-media-links div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 50px;
+  border-radius: 20%;
+  margin: 10px;
+  color: white;
+}
+
+.social-media-links div.facebook {
+  background-color: blue;
+}
+
+.social-media-links div.twitter {
+  background-color:  lightblue;
+}
+
+.social-media-links div.instagram {
+  background-color: pink;
+}
+
+/* Fußzeile */
+.footer-container {
+  background-color: #333;
+}
+
+.footer-nav {
+  color: #fff;
+  padding: 10px;
+}
+
+.footer-nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+
+.footer-nav li {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.footer-nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+}
