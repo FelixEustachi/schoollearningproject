@@ -12,8 +12,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!--link to style.css-->
     <link rel="stylesheet" href="style.css">
-    <!-- jQuery library -->
-    <script src="./node_modules/jquery/dist/jquery.min.js"></script>
     <!-- Favicon -->
     <link rel="icon" href="favicon-256x256.png" type="image/x-icon">
   </head>
@@ -57,7 +55,6 @@
 
 <!-- About Container -->
 <div class="w3-container" id="about">
-
   <div class="w3-content" style="max-width:700px">
     <h5 class="w3-center w3-padding-64"><span class="w3-wide">ABOUT THE CAFE</span></h5>
     <p>Welcome to "The Daily Grind"! Our cozy cafe was founded in 2005 by the coffee connoisseur, Mr. Smith. Situated in the heart of the city, we offer a wide range of coffee blends and brewing methods to satisfy every taste bud.</p>
@@ -75,7 +72,6 @@
     <p><strong>Opening hours:</strong> everyday from 6am to 5pm.</p>
     <p><strong>Address:</strong> 15 Adr street, 5015, NY</p>
   </div>
-
 </div>
 
 <!-- Menu Container -->
@@ -228,7 +224,7 @@ function openMenu(evt, menuName) {
 
 
 function initMapCallback() {
-    var myLatLng = {lat: 51.5074, lng: -0.1278};
+    var myLatLng = {lat: 41.5074, lng: -0.1278};
 
     var map = new google.maps.Map(document.getElementById('map'), {
       zoom: 12,
